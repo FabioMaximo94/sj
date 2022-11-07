@@ -1,3 +1,10 @@
+import client1 from "../assets/images/client/01.png";
+import client2 from "../assets/images/client/02.png";
+import client3 from "../assets/images/client/03.png";
+import client4 from "../assets/images/client/04.png";
+import client5 from "../assets/images/client/05.png";
+import client6 from "../assets/images/client/06.png";
+
 
 function Clients_logos() {
   return (
@@ -10,13 +17,13 @@ function Clients_logos() {
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="row">
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client1} />
               </div>
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client2} />
               </div>
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client3} />
               </div>
             </div>
           </div>
@@ -24,13 +31,13 @@ function Clients_logos() {
           <div class="carousel-item active" data-bs-interval="2000">
             <div class="row">
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client4} />
               </div>
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client5} />
               </div>
               <div class="col-4">
-                <img src="..."></img>
+                <img src={client6} />
               </div>
             </div>
           </div>

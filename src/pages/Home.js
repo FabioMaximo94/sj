@@ -5,6 +5,8 @@ import Diferenciais_cards from "../components/Diferenciais_cards";
 import Planos_cards from "../components/Planos_cards";
 import Depoiments_slide from "../components/Depoiments_slide";
 
+import arquitetura_img from "../assets/images/arquitetura_img.png";
+
 function Home() {
   return (
     <main className="main--home">
@@ -12,7 +14,7 @@ function Home() {
 
       <section className="justify-content-center" id="section01">
         <h2 className="h2"><b>Mais que um CRM.</b><br/>Um novo mundo de controle e eficiência.</h2>
-        <p className="fontcolor-secundary">Vá além da agilidade e organização com sua equipe de vendas.</p>
+        <p className="fontcolor-opacity">Vá além da agilidade e organização com sua equipe de vendas.</p>
 
         <Agendar_form />
 
@@ -53,7 +55,7 @@ function Home() {
         <h2 className="h2 fontcolor-white">Arquitetura de integração.</h2>
         <p className="fontcolor-white">Com uma robusta camada de APIs, o Sales Journey pode ser integrado facilmente.</p>
 
-        <img src=""></img>
+        <img src={arquitetura_img} />
         
       </section>
 
