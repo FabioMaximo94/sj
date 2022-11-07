@@ -2,9 +2,7 @@
 function Agendar_form() {
   return (
     <div className="agendar_form">
-
-      <p>Comece agora mesmo uma verdadeira jornada de sucesso!</p>
-
+      
       <form>
         <label>
           <input type="text" name="name" placeholder="Digite seu e-mail" />

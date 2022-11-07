@@ -6,6 +6,7 @@ function Depoiments_slide() {
   return (
     <div className="depoiments_slide">
 
+      <h2 className="h2 fontcolor-primary">O que nossos clientes falam.</h2>
 
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">

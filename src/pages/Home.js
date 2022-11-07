@@ -16,6 +16,8 @@ function Home() {
         <h2 className="h2"><b>Mais que um CRM.</b><br/>Um novo mundo de controle e eficiência.</h2>
         <p className="fontcolor-opacity">Vá além da agilidade e organização com sua equipe de vendas.</p>
 
+        <p>Comece agora mesmo uma verdadeira jornada de sucesso!</p>
+
         <Agendar_form />
 
         <img src="assets/img/landing/saas-2/features/comments.svg"></img>
