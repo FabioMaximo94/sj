@@ -1,4 +1,6 @@
 import logoFooter from "../assets/images/logo-light.png";
+import btn_store from "../assets/images/btn_store.png";
+import btn_google from "../assets/images/btn_google.png";
 
 function Footer() {
   return (
@@ -51,17 +53,13 @@ function Footer() {
 
                       <li class="nav-item">
                         <a class="nav-link app--aplle__btn" href="#">
-                          <span><i class="bi bi-apple"></i></span>
-                          <span>Download on the</span>
-                          <span>App Store</span>
+                          <img src={btn_store} alt="Download App Aplle Store" />
                         </a>
                       </li>
 
                       <li class="nav-item">
                         <a class="nav-link app--google__btn" href="#">
-                          <span><i class="bi bi-google-play"></i></span>
-                          <span>GET IT ON</span>
-                          <span>Google Play</span>
+                          <img src={btn_google} alt="Download App Google Play" />
                         </a>
                       </li>
 

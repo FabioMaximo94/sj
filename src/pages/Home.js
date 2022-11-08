@@ -5,6 +5,7 @@ import Diferenciais_cards from "../components/Diferenciais_cards";
 import Planos_cards from "../components/Planos_cards";
 import Depoiments_slide from "../components/Depoiments_slide";
 
+import plataforma_img from "../assets/images/plataforma_img.png";
 import arquitetura_img from "../assets/images/arquitetura_img.png";
 
 function Home() {
@@ -20,7 +21,7 @@ function Home() {
 
         <Agendar_form />
 
-        <img src="assets/img/landing/saas-2/features/comments.svg"></img>
+        <img src={plataforma_img} />
 
       </section>
 
