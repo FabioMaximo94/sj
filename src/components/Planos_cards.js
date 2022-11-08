@@ -42,7 +42,7 @@ function Planos_cards() {
               <span class="line-primary"></span>
 
               <ul>
-                
+
                 <li>• Gestão de clientes, funil de venda, oportunidades (leads) e tarefas.</li>
 
                 <li>• Anexe arquivos aos clientes e oportunidades</li>
@@ -108,9 +108,7 @@ function Planos_cards() {
             </div>
           </div>
         </div>
-
-
-
+        
         <div class="col-sm-4">
           <div class="card">
 

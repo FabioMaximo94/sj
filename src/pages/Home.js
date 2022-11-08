@@ -32,8 +32,7 @@ function Home() {
         <Beneficios_cards />
 
       </section>
-
-
+      
 
       <section className="justify-content-center" id="section03">
         <h2 className="h2 fontcolor-primary">Empresas que já aceleram suas jornadas</h2>
