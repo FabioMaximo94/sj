@@ -55,7 +55,7 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" class="btn-primary-white">Ver todos os recursos</a>
+              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
@@ -103,7 +103,7 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" class="btn-primary-white">Ver todos os recursos</a>
+              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
@@ -148,7 +148,7 @@ function Planos_cards() {
                 <li>• Utilize nossas APIs e Webhooks (callbacks) para integrar com os mais diversos produtos de automação de marketing, produtividade e ERPs.clientes e gerenciar o seu funil de vendas.</li>
               </ul>
 
-              <a href="#" class="btn-primary-white">Ver todos os recursos</a>
+              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>

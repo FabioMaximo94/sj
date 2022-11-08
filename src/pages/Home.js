@@ -54,8 +54,8 @@ function Home() {
 
 
       <section className="justify-content-center" id="section05">
-        <h2 className="h2 fontcolor-white">Arquitetura de integração.</h2>
-        <p className="fontcolor-white">Com uma robusta camada de APIs, o Sales Journey pode ser integrado facilmente.</p>
+        <h2 className="h2 fontcolor-primary">Arquitetura de integração.</h2>
+        <p className="fontcolor-opacity">Com uma robusta camada de APIs, o Sales Journey pode ser integrado facilmente.</p>
 
         <img src={arquitetura_img} />
         

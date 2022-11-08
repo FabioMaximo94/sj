@@ -68,7 +68,7 @@ function Header() {
 
           <a class="btn btn-lg btn-primary" href="#" role="button">Comece agora é grátis</a>
 
-          <a class="btn btn-lg btn-secondary" href="#" role="button">Login</a>
+          <a class="btn btn-lg btn-secundary" href="#" role="button">Login</a>
 
         </div>
       </div>
