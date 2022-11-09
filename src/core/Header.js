@@ -67,7 +67,7 @@ function Header() {
 
                 </ul>
 
-                <a className="btn btn-lg btn-primary" href="#" role="button">Comece agora é grátis</a>
+                <a className="btn btn-lg btn-primary" href="gratis" role="button">Comece agora é grátis</a>
 
                 <a className="btn btn-lg btn-secundary" href="#" role="button">Login</a>
 

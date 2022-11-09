@@ -37,7 +37,7 @@ function Planos_cards() {
               <h1 className="card-price">Free</h1>
               <p className="card-text-inline-primary">Individual</p>
 
-              <a className="btn btn-lg btn-primary" href="#" role="button">Comece agora é grátis</a>
+              <a className="btn btn-lg btn-primary" href="gratis" role="button">Comece agora é grátis</a>
               <p className="card-text-afterbtn">Não é necessário cartão de crédito</p>
               <span className="line-primary"></span>
 
@@ -55,7 +55,7 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="planos#tabelaplanos" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
@@ -78,7 +78,7 @@ function Planos_cards() {
               <h1 className="card-price">R$ 89,00</h1>
               <p className="card-text-inline-secundary">por usuário por mês, faturado mensalmente</p>
 
-              <a className="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
+              <a className="btn btn-lg btn-primary" href="gratis" role="button">Teste grátis</a>
               <p className="card-text-afterbtn">Teste gratuito de 14 dias. Não é necessário cartão de crédito</p>
               <span className="line-primary"></span>
 
@@ -103,7 +103,7 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="planos#tabelaplanos" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
@@ -124,7 +124,7 @@ function Planos_cards() {
               <h1 className="card-price">R$ 180,00</h1>
               <p className="card-text-inline-primary">por usuário por mês, faturado mensalmente</p>
 
-              <a className="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
+              <a className="btn btn-lg btn-primary" href="gratis" role="button">Teste grátis</a>
               <p className="card-text-afterbtn">Teste gratuito de 30 dias. Não é necessário cartão de crédito</p>
               <span className="line-primary"></span>
 
@@ -148,7 +148,7 @@ function Planos_cards() {
                 <li>• Utilize nossas APIs e Webhooks (callbacks) para integrar com os mais diversos produtos de automação de marketing, produtividade e ERPs.clientes e gerenciar o seu funil de vendas.</li>
               </ul>
 
-              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="planos#tabelaplanos" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>

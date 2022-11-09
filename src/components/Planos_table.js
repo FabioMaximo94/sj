@@ -4,7 +4,7 @@ import icon03 from "../assets/images/planos/icon03.png";
 
 function Planos_cards() {
   return (
-    <div className="planos_cards">
+    <div className="planos_cards" id="tabelaplanos">
 
 <table className="table">
           <thead>

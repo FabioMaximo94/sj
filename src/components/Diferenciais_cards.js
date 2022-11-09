@@ -88,10 +88,10 @@ function Diferenciais_cards() {
         <div className="justify-content-center">
 
         <h4>Ficou com alguma dúvida?</h4>
-        <a className="btn btn-secundary" href="#">Agende uma demonstração</a>
+        <a className="btn btn-secundary" href="contato">Agende uma demonstração</a>
 
         <h4>ou começe agora uma jornada de vendas de sucesso!</h4>
-        <a className="btn btn-primary" href="#">Comece agora é grátis</a>
+        <a className="btn btn-primary" href="gratis">Comece agora é grátis</a>
 
         </div>
       </div>
