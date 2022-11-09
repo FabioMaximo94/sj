@@ -31,9 +31,9 @@ function Planos_cards() {
             </tr>
             <tr>
               <th scope="row">Permissões avançadas</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Upload de arquivos</th>
@@ -45,13 +45,13 @@ function Planos_cards() {
               <th scope="row">API e Webhooks (callbacks)</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Versão desktop e mobile (Apple Store e Google Play)</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr className="table-lineblack">
@@ -81,63 +81,63 @@ function Planos_cards() {
             <tr>
               <th scope="row">Campos customizados</th>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Anexos</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Logs de auditoria</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Exportação de listas para CSV, Excel ou JSON</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr>
               <th scope="row">Carrinho de venda (produtos e serviços)</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Estoque</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Conversão para pedido de venda</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Campanhas de Giftback</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Políticas comerciais</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Integração via API e webhook (callback)</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr className="table-lineblack">
@@ -148,40 +148,40 @@ function Planos_cards() {
             </tr>
             <tr>
               <th scope="row">Hierarquia comercial</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Logs de auditoria</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Exportação de listas para CSV, Excel ou JSON</th>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr>
               <th scope="row">Bloqueios com Workflow</th>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Campos customizados</th>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Integração via API e webhook (callback)</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr className="table-lineblack">
@@ -194,55 +194,55 @@ function Planos_cards() {
               <th scope="row">Hierarquia comercial</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Logs de auditoria</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Exportação de listas para CSV, Excel ou JSON</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Campos customizados</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Bloqueios com Workflow</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Políticas comerciais</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Estoque</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Campanhas de Giftback</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Integração via API e webhook (callback)</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
 
             <tr className="table-lineblack">
@@ -255,7 +255,7 @@ function Planos_cards() {
               <th scope="row">Suporte prioritário</th>
               <td></td>
               <td></td>
-              <td><i className="bi bi-check-lg"></i></td>
+              <td><i className="fa fa-check"></i></td>
             </tr>
             <tr>
               <th scope="row">Customer success (+100 usuários) </th>

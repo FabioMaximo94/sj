@@ -6,6 +6,8 @@ import "./App.css";
 //import "./assets/css/pe-icon-7.css";
 import "./assets/js/bootstrap.min.js";
 //import "./assets/js/bootstrap.bundle.min.js";
+import "./assets/fontawesome/css/all.min.css";
+
 
 import {
   Routes,
