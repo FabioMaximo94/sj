@@ -12,7 +12,7 @@ function Produto() {
 
 
       <section className="justify-content-center" id="section08">
-        <h2 className="h2"><b>Por que somos mais que um CRM?</b></h2>
+        <h2 className="h2 fontcolor-primary"><b>Por que somos mais que um CRM?</b></h2>
         <p className="fontcolor-opacity">O Sales Journey é uma Plataforma SaaS, lead-to-cash (oportunidade a fatura), mobile-first, que traz os benefícios da mobilidade, fluxos de trabalho de backoffice e uma camada aberta de APIs, permitindo a integração com qualquer solução, desde um ERP a uma solução de marketing.</p>
 
         <video></video>
@@ -22,7 +22,7 @@ function Produto() {
 
 
       <section className="justify-content-center" id="section09">
-        <h4 className="h4">Nossa tecnologia disponibiliza uma experiência inovadora para o seu time de vendas e clientes, oferecendo todas as informações necessárias para uma venda qualificada.</h4>
+        <h4 className="h4 fontcolor-primary">Nossa tecnologia disponibiliza uma experiência inovadora para o seu time de vendas e clientes, oferecendo todas as informações necessárias para uma venda qualificada.</h4>
 
         <Diferenciais_cards />
         

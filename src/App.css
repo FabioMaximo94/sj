@@ -483,3 +483,90 @@ ul.navbar-sociais {
 ul.navbar-sociais>li>a>img {
   width: 15px;
 }
+
+section#section08 p {
+  max-width: 640px;
+  margin: auto;
+}
+
+section#section09>h4 {
+  font-size: 19px;
+  margin-bottom: 32px;
+  line-height: 28px;
+}
+
+section#section09 {
+}
+
+section#section09 .card {
+  background-color: #221d44;
+}
+
+section#section09 h4 {
+  color: #594bcf;
+  font-size: 22px;
+}
+
+section#section10>h2 {
+  margin-bottom: 30px;
+}
+
+section#section11>h2 {color: #8463fd;margin-bottom: 25px;}
+
+section#section11>p {
+  width: 73%;
+  margin: auto;
+  margin-bottom: 62px;
+}
+
+section#section11>p>span {
+  color: #8463fd;
+}
+
+.row.cards-beneficios .card {
+  height: 128px;
+  color: white;
+  border-radius: 22px;
+}
+
+.row.cards-beneficios .card .card-text {
+  font-size: 13px;
+}
+
+.row.cards-beneficios .card .card-title {font-weight: 700;}
+
+.row.cards-clevels .card {
+  background-color: transparent;
+  border: navajowhite;
+}
+
+section#section10 {
+  background-color: #8463fd;
+}
+
+section#section11 .row.cards-beneficios .card {
+  background-color: #573fc2;
+}
+
+.row.cards-clevels .card-text {
+  background-color: #573fc2;
+  border-radius: 6px;
+  padding: 36px;
+  padding-top: 34px;
+  font-weight: 600;
+  height: 90px;
+  color: white;
+  font-size: 14px;
+}
+
+.row.cards-clevels .card-title {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+  margin-top: -24px;
+  position: relative;
+  margin-bottom: -18px;
+  color: #8463fd;
+}
