@@ -9,6 +9,7 @@ import linkedin_icon from "../assets/images/icons/linkedin.png";
 function Footer() {
   return (
     <footer className="footer">
+    <div class="content">
 
       <div class="container text-center">
         <div class="row">
@@ -19,16 +20,16 @@ function Footer() {
 
           <div class="col">
             <ul class="list-group list-group-flush">
-              <li><a href="#">Produto</a></li>
-              <li><a href="#">Planos</a></li>
+              <li><a href="produto">Produto</a></li>
+              <li><a href="planos">Planos</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Help Center</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="contato">Contato</a></li>
               <li><a href="#">Login</a></li>
-              <li><a href="#">Experimente grátis</a></li>
-              <li><a href="#">Trabalhe conosco</a></li>
-              <li><a href="#">Termos de uso</a></li>
-              <li><a href="#">Políticas de privacidade</a></li>
+              <li><a href="gratis">Experimente grátis</a></li>
+              <li><a href="trabalheconosco">Trabalhe conosco</a></li>
+              <li><a href="termos">Termos de uso</a></li>
+              <li><a href="politica">Políticas de privacidade</a></li>
             </ul>
           </div>
 
@@ -53,7 +54,7 @@ function Footer() {
 
         </div>
       </div>
-
+    </div>
     </footer>
   );
 }

@@ -19,6 +19,10 @@ import Home from "./pages/Home";
 import Produto from "./pages/Produto";
 import Planos from "./pages/Planos";
 import Contato from "./pages/Contato";
+
+import Trabalheconosco from "./pages/Trabalheconosco";
+import Gratis from "./pages/Gratis";
+
 import Termos from "./pages/Termos";
 import Politica from "./pages/Politica";
 
@@ -32,6 +36,10 @@ function App() {
         <Route path="produto" element={<Produto />} />
         <Route path="planos" element={<Planos />} />
         <Route path="contato" element={<Contato />} />
+
+        <Route path="trabalheconosco" element={<Trabalheconosco />} />
+        <Route path="gratis" element={<Gratis />} />
+
         <Route path="termos" element={<Termos />} />
         <Route path="politica" element={<Politica />} />
 

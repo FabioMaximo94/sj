@@ -3,6 +3,7 @@ import Trabalheconosco_form from "../components/Trabalheconosco_form";
 function Trabalheconosco() {
   return (
     <main className="main--Trabalheconosco">
+      <div class="content">
 
 
       <section className="justify-content-center page-form" id="section22">
@@ -14,14 +15,7 @@ function Trabalheconosco() {
       </section>
 
 
-      <section className="justify-content-center" id="section23">
-        <h2 className="h2 fontcolor-primary">Empresas que já aceleram suas jornadas</h2>
-
-        <Clients_logos />
-
-      </section>
-
-
+      </div>
     </main>
   );
 }

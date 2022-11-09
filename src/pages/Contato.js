@@ -3,6 +3,7 @@ import Contato_form from "../components/Contato_form";
 function Contato() {
   return (
     <main className="main--contato">
+      <div class="content">
 
 
       <section className="justify-content-center page-form" id="section19">
@@ -13,7 +14,7 @@ function Contato() {
 
       </section>
 
-
+      </div>
     </main>
   );
 }

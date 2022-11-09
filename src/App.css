@@ -14,29 +14,17 @@
 
 /* Style */
 
-
-@media (prefers-reduced-motion: no-preference) {
-
+.content section>*, .content .container {
+  max-width: 1000px;
+  margin: auto;
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content .container {
+  padding: 0;
 }
-
-
-
-
-
-
 
 header.App-header ul {
-    width: 68%;
+    width: 66%;
 }
 
 header.App-header .btn-secundary {
@@ -46,7 +34,12 @@ header.App-header .btn-secundary {
 
 #section01 h2 {
     color: #594bcf;
-    margin-top: 33px;
+    margin-top: 2px;
+}
+
+#section01>p:nth-child(2) {
+  margin-bottom: 28px;
+  margin-top: 5px;
 }
 
 #section01 p.fontcolor-opacity {
@@ -55,7 +48,7 @@ header.App-header .btn-secundary {
 }
 
 .fontcolor-opacity {
-  color: #00000036;
+  color: #0000007d;
 }
 
 #section01 p {
@@ -99,10 +92,8 @@ section#section02 {
 }
 
 main section {
-    width: 100%;
-    /* max-width: 1200px; */
-    /* margin: auto; */
-    padding: 3% 10%;
+  width: 100%;
+  padding: 40px 14px;
 }
 
 section#section02 h2 {
@@ -159,10 +150,6 @@ section#section04 h2 {
     height: 160px;
     margin-bottom: 20px;
     width: auto;
-}
-
-section#section04 {
-    padding: 2% 20%;
 }
 
 .row.cards-diferenciais .card .card-text {
@@ -289,10 +276,6 @@ h2 {
   background-color: #743be4;
 }
 
-.cards-planos>div:nth-child>.card>.card-body>.card-text-inline-primary {
- 
-}
-
 .cards-planos h5.card-title {
   font-size: 14px;
 }
@@ -389,7 +372,7 @@ footer a.navbar-brand {
   top: 72px;
 }
 
-footer.footer>.container>.row>.col:nth-child(2) {
+footer.footer>div>.container>.row>.col:nth-child(2) {
   border-left: 1px solid #362a73;
   margin-left: 40px;
   border-right: 1px solid #362a73;
@@ -454,7 +437,7 @@ div#navbarsExample07>ul>li {
 }
 
 .header--sociais__icons {
-  margin-left: 24%;
+  margin-left: 14%;
   margin-right: 6%;
 }
 
@@ -489,7 +472,7 @@ section#section08 p {
   margin: auto;
 }
 
-section#section09>h4 {
+section#section09>div>h4 {
   font-size: 19px;
   margin-bottom: 32px;
   line-height: 28px;
@@ -501,14 +484,15 @@ section#section09 .card {
 
 section#section09 h4 {
   color: #594bcf;
-  font-size: 22px;
+  font-size: 20px;
+  padding: 28px;
 }
 
-section#section10>h2 {
+section#section10>div>h2 {
   margin-bottom: 30px;
 }
 
-section#section11>h2 {color: #8463fd;margin-bottom: 25px;}
+section#section11>div>h2 {color: #8463fd;margin-bottom: 25px;}
 
 section#section11>p {
   width: 73%;
@@ -516,7 +500,7 @@ section#section11>p {
   margin-bottom: 62px;
 }
 
-section#section11>p>span {
+section#section11>div>p>span {
   color: #8463fd;
 }
 
@@ -699,6 +683,7 @@ section#section18 .agendar_form>form>label>input:nth-child(2) {
   border-radius: 20px;
   text-align: left;
   width: 90%;
+  max-width: 64%;
   margin: auto;
 }
 
@@ -725,3 +710,186 @@ section#section18 .agendar_form>form>label>input:nth-child(2) {
   font-size: 13px;
   color: white;
 }
+
+input[type="file"] {
+  border: 0 !important;
+  background-color: white;
+  color: black;
+}
+
+select.form-select {
+  margin-bottom: 12px;
+}
+
+.page-text>p {
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.page-text>p.fontcolor-opacity {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+section#section05 img {
+  margin-top: 30px;
+}
+
+.h2, h2 {
+  margin-bottom: 18px !important;
+}
+
+section#section14>img {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+.content section>*, .content .container {
+    width: 92%;
+    padding: 0 4%;
+}
+
+.agendar_form input {
+    border-radius: 10px !important;
+    width: 98%;
+    margin: -2px;
+    margin-left: 0 !important;
+}
+
+.h2, h2 {
+    font-size: 18px !important;
+}
+
+.row.cards-beneficios .card .card-text {
+    font-size: 12px;
+}
+
+.clients_logos img {
+    width: auto !important;
+    height: auto !important;
+}
+
+.row.cards-diferenciais .card {
+    height: 350px;
+}
+
+section#section05 img {
+    padding: 0;
+}
+
+.cards-planos>div>.card {
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.depoiments_slide .carousel-inner .col-8 {
+    padding: 0;
+}
+
+.carousel-item .col-4>img {width: 100%;}
+
+.depoiments_slide .carousel-inner {
+    margin: 0;
+    width: 100%;
+}
+
+.depoiments_slide .carousel-inner .col-8 {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+footer a.navbar-brand {
+    top: 0;
+    padding: 22px 12px;
+    float: left;
+}
+
+footer.footer>div>.container>.row>.col:nth-child(2) {
+    border: 0;
+    margin-left: 0;
+}
+
+ul.list-group.list-group-flush {
+    padding-left: 0;
+}
+
+ul.navbar-sociais>li {
+    margin-right: -2px;
+}
+
+ul.navbar-lojasapp>li img {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer.footer h5 {
+    margin-left: -221px;
+    padding-top: 32px;
+    width: 200px;
+}
+
+footer {
+    padding-bottom: 70px !important;
+}
+
+.agendar_form {
+    padding-top: 16px !important;
+}
+
+section#section09 h4 {
+  font-size: 14px;
+  padding: 22px 2px;
+}
+
+section#section09 h4 {
+  font-size: 18px;
+  padding: 10px 2px;
+}
+
+section#section11>p {
+  width: 90%;
+  font-size: 17px;
+}
+
+section#section11 .row.cards-beneficios .card {
+  margin-bottom: 20px;
+}
+
+section#section14 {
+  margin-bottom: -90px;
+}
+
+section#section15 {
+  padding-top: 80px;
+}
+
+.planos_cards {
+  overflow: scroll;
+}
+
+.page-form>div {
+  max-width: 100%;
+  padding: 12px 32px;
+}
+
+}
+
+

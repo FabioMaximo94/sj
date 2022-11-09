@@ -1,6 +1,7 @@
 function Termos() {
   return (
     <main className="main--termos">
+      <div class="content">
 
 
       <section className="justify-content-center page-text" id="section24">
@@ -301,6 +302,7 @@ INSTRUMENTO ELABORADO EM 02/2/2021 COLOCADO EM REGISTRO PERANTE O OFICIAL DE NOT
       </section>
 
 
+      </div>
     </main>
   );
 }

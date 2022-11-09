@@ -1,14 +1,13 @@
 function Politica() {
   return (
     <main className="main--politica">
+      <div class="content">
 
 
       <section className="justify-content-center page-text" id="section25">
         <h2 className="h2 fontcolor-primary"><b>Política de privacidade.</b></h2>
 
-<p><b>Contrato de Licença de Uso de Usuário Final<br /><br />
-
-Esta Política de Privacidade descreve as condutas e os procedimentos adotados pelo SALES JOURNEY para a coleta, armazenamento, uso, tratamento, compartilhamento e eliminação de Informações dos usuários obtidas junto a Plataforma SALES JOURNEY. <br /><br />
+<p><b>Esta Política de Privacidade descreve as condutas e os procedimentos adotados pelo SALES JOURNEY para a coleta, armazenamento, uso, tratamento, compartilhamento e eliminação de Informações dos usuários obtidas junto a Plataforma SALES JOURNEY. <br /><br />
 
 O usuário, neste ato, declara que fez a leitura completa e atenta das regras deste documento e dos Termos de Uso, estando plenamente ciente conferindo assim sua livre e expressa concordância com os termos aqui estipulados. Caso não esteja de acordo com estas Políticas de Privacidade, deverá descontinuar o seu acesso a Plataforma.</b><br /><br />
 
@@ -105,6 +104,7 @@ SALES JOURNEY
       </section>
 
 
+      </div>
     </main>
   );
 }

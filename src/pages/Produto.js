@@ -9,6 +9,7 @@ import clevels3 from "../assets/images/clevels/03.png";
 function Produto() {
   return (
     <main className="main--produto">
+    <div class="content">
 
 
       <section className="justify-content-center" id="section08">
@@ -131,6 +132,7 @@ function Produto() {
 
 
 
+      </div>
     </main>
   );
 }
