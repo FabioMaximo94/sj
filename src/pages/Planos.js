@@ -12,7 +12,7 @@ function Planos() {
 
 
       <section className="justify-content-center" id="section14">
-        <h2 className="h2"><b>Seus objetivos, nossa jornada de sucesso!</b></h2>
+        <h2 className="h2 fontcolor-primary"><b>Seus objetivos, nossa jornada de sucesso!</b></h2>
         <p className="fontcolor-opacity">Somos a melhor ferramenta estratégica para sua equipe de vendas alcançar os objetivos.</p>
 
         <img src={planos_img} />
@@ -47,7 +47,7 @@ function Planos() {
 
       <section className="justify-content-center" id="section18">
 
-        <h2 className="h2">Ficou com alguma dúvida para decidir qual é a melhor solução para seu time de vendas?</h2>
+        <h2 className="h2 fontcolor-white">Ficou com alguma dúvida para decidir qual é a melhor solução para seu time de vendas?</h2>
 
         <Agendar_form />
         

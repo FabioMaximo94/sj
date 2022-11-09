@@ -3,8 +3,8 @@ function Politica() {
     <main className="main--politica">
 
 
-      <section className="justify-content-center" id="section25">
-        <h2 className="h2"><b>Política de privacidade.</b></h2>
+      <section className="justify-content-center page-text" id="section25">
+        <h2 className="h2 fontcolor-primary"><b>Política de privacidade.</b></h2>
 
 <p><b>Contrato de Licença de Uso de Usuário Final<br /><br />
 

@@ -5,8 +5,8 @@ function Trabalheconosco() {
     <main className="main--Trabalheconosco">
 
 
-      <section className="justify-content-center" id="section22">
-        <h2 className="h2"><b>Falta pouco ...</b></h2>
+      <section className="justify-content-center page-form" id="section22">
+        <h2 className="h2 fontcolor-primary"><b>Falta pouco ...</b></h2>
         <p className="fontcolor-opacity">Preencha o formulário com suas informações que em poucos minutos você  estará utilizando o Sales Journey. <span className="fontcolor-primary">É grátis!</span></p>
 
         <Trabalheconosco_form />

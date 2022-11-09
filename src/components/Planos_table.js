@@ -10,9 +10,9 @@ function Planos_cards() {
           <thead>
             <tr>
               <th scope="col"><h4 class="h4">Compare planos e funcionalidades</h4></th>
-              <th scope="col"><img class="card-icon" src={icon01} /><h4>Personal</h4><a href="#" class="btn-primary">Comece agora é grátis</a></th>
-              <th scope="col"><img class="card-icon" src={icon02} /><h4>Startup</h4><a href="#" class="btn-primary">Teste grátis</a></th>
-              <th scope="col"><img class="card-icon" src={icon03} /><h4>Sales Ops</h4><a href="#" class="btn-primary">Teste grátis</a></th>
+              <th scope="col"><img class="card-icon" src={icon01} /><h4>Personal</h4><a href="#" class="btn btn-primary">Comece agora é grátis</a></th>
+              <th scope="col"><img class="card-icon" src={icon02} /><h4>Startup</h4><a href="#" class="btn btn-primary">Teste grátis</a></th>
+              <th scope="col"><img class="card-icon" src={icon03} /><h4>Sales Ops</h4><a href="#" class="btn btn-primary">Teste grátis</a></th>
             </tr>
           </thead>
           <tbody>

@@ -3,8 +3,8 @@ function Termos() {
     <main className="main--termos">
 
 
-      <section className="justify-content-center" id="section24">
-        <h2 className="h2"><b>Termos de serviço.</b></h2>
+      <section className="justify-content-center page-text" id="section24">
+        <h2 className="h2 fontcolor-primary"><b>Termos de serviço.</b></h2>
         <p className="fontcolor-opacity">TERMO DE ACEITE E CONDIÇÕES DE USO DO SALES JOURNEY</p>
 
 
