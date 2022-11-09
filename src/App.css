@@ -10,7 +10,7 @@
 }
 
 header.App-header ul {
-    width: 66%;
+  width: 66%;
 }
 
 header.App-header .btn-secundary {
@@ -19,8 +19,8 @@ header.App-header .btn-secundary {
 }
 
 #section01 h2 {
-    color: #594bcf;
-    margin-top: 2px;
+  color: #594bcf;
+  margin-top: 2px;
 }
 
 #section01>p:nth-child(2) {
@@ -29,8 +29,8 @@ header.App-header .btn-secundary {
 }
 
 #section01 p.fontcolor-opacity {
-    color: #00000036;
-    margin-top: -6px;
+  color: #00000036;
+  margin-top: -6px;
 }
 
 .fontcolor-opacity {
@@ -38,43 +38,43 @@ header.App-header .btn-secundary {
 }
 
 #section01 p {
-    font-size: 15px;
-    color: #594bcf;
-    font-weight: 600;
+  font-size: 15px;
+  color: #594bcf;
+  font-weight: 600;
 }
 
 .agendar_form p {
-    font-size: 11px !important;
-    color: #0000005c !important;
+  font-size: 11px !important;
+  color: #0000005c !important;
 }
 
 .agendar_form input {
-    padding: 10px;
-    border-radius: 8px 0px 0px 8px;
-    border: 2px solid #594bcf;
+  padding: 10px;
+  border-radius: 8px 0px 0px 8px;
+  border: 2px solid #594bcf;
 }
 
 .agendar_form input[type="submit"] {
-    margin-left: -8px;
-    border: 0;
-    background-color: #594bcf;
-    padding: 12px 12px;
-    color: white;
-    border-radius: 0 8px 8px 0;
+  margin-left: -8px;
+  border: 0;
+  background-color: #594bcf;
+  padding: 12px 12px;
+  color: white;
+  border-radius: 0 8px 8px 0;
 }
 
 section#section01 img {
-    margin-top: 20px;
-    max-width: 800px;
+  margin-top: 20px;
+  max-width: 800px;
 }
 
 .bg-secundary {
-    background-color: #8463fd;
+  background-color: #8463fd;
 }
 
 section#section02 {
-    padding-top: 120px;
-    margin-top: -140px;
+  padding-top: 120px;
+  margin-top: -140px;
 }
 
 main section {
@@ -83,64 +83,64 @@ main section {
 }
 
 section#section02 h2 {
-    font-size: 26px;
-    margin-bottom: 26px;
+  font-size: 26px;
+  margin-bottom: 26px;
 }
 
 .fontcolor-white {
-    color: white;
+  color: white;
 }
 
 .beneficios_cards .card {
-    background-color: #573fc2;
-    border: 0;
-    margin-bottom: 22px;
-    border-radius: 22px;
-    color: white;
-    height: 122px;
+  background-color: #573fc2;
+  border: 0;
+  margin-bottom: 22px;
+  border-radius: 22px;
+  color: white;
+  height: 122px;
 }
 
 .beneficios_cards .card-text {
-    font-size: 13px;
-    width: 80%;
-    margin: auto;
-    color: #ffffffba;
+  font-size: 13px;
+  width: 80%;
+  margin: auto;
+  color: #ffffffba;
 }
 
 .fontcolor-primary {
-    color: #8463fd;
+  color: #8463fd;
 }
 
 .clients_logos {
-    width: 70%;
-    margin: auto;
-    margin-top: 22px;
+  width: 70%;
+  margin: auto;
+  margin-top: 22px;
 }
 
 section#section04 h2 {
-    max-width: 550px;
-    margin: auto;
-    margin-bottom: 40px;
+  max-width: 550px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .row.cards-diferenciais .card {
-    background-color: transparent;
-    border: 2px solid #8463fd;
-    color: white;
-    border-radius: 30px;
-    height: 306px;
-    margin-bottom: 24px;
+  background-color: transparent;
+  border: 2px solid #8463fd;
+  color: white;
+  border-radius: 30px;
+  height: 306px;
+  margin-bottom: 24px;
 }
 
 .row.cards-diferenciais .card img.card-img {
-    height: 160px;
-    margin-bottom: 20px;
-    width: auto;
+  height: 160px;
+  margin-bottom: 20px;
+  width: auto;
 }
 
 .row.cards-diferenciais .card .card-text {
-    font-size: 13px !important;
-    color: #8463fd;
+  font-size: 13px !important;
+  color: #8463fd;
 }
 
 .justify-content-center {
@@ -478,7 +478,10 @@ section#section10>div>h2 {
   margin-bottom: 30px;
 }
 
-section#section11>div>h2 {color: #8463fd;margin-bottom: 25px;}
+section#section11>div>h2 {
+  color: #8463fd;
+  margin-bottom: 25px;
+}
 
 section#section11>p {
   width: 73%;
@@ -500,7 +503,9 @@ section#section11>div>p>span {
   font-size: 13px;
 }
 
-.row.cards-beneficios .card .card-title {font-weight: 700;}
+.row.cards-beneficios .card .card-title {
+  font-weight: 700;
+}
 
 .row.cards-clevels .card {
   background-color: transparent;
@@ -551,7 +556,7 @@ section#section14 {
 }
 
 section#section16>.planos_cards {
-  background-image: linear-gradient(to right, #2a6dff , #773be4);
+  background-image: linear-gradient(to right, #2a6dff, #773be4);
   border-radius: 22px;
   padding: 22px;
   text-align: left;
@@ -582,7 +587,10 @@ tr>td:nth-child(4) {
   border-right: 0;
 }
 
-tr.table-lineblack>th, tr.table-lineblack>td {border-color: black;font-weight: 600;}
+tr.table-lineblack>th, tr.table-lineblack>td {
+  border-color: black;
+  font-weight: 600;
+}
 
 tr>th, tr>td {
   border-color: #ffffff4f;
@@ -629,7 +637,7 @@ section#section18 {
 
 section#section18>h2 {
   max-width: 580px;
-  margin:  auto;
+  margin: auto;
   font-size: 19px !important;
 }
 
@@ -686,7 +694,14 @@ section#section18 .agendar_form>form>label>input:nth-child(2) {
   padding: 8px;
 }
 
-.page-form form>label:last-child>input {width: 160px;background-color: #573fc2;border: 1px solid white;color: white;padding: 5px 10px;margin-top: 14px;}
+.page-form form>label:last-child>input {
+  width: 160px;
+  background-color: #573fc2;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 14px;
+}
 
 .page-form p.inline-form {
   border-top: 1px solid #ffffff57;
@@ -747,135 +762,135 @@ section#section14>img {
 
 @media only screen and (max-width: 700px) {
 
-.content section>*, .content .container {
-    width: 92%;
-    padding: 0 4%;
+  .content section>*, .content .container {
+      width: 92%;
+      padding: 0 4%;
+  }
+
+  .agendar_form input {
+      border-radius: 10px !important;
+      width: 98%;
+      margin: -2px;
+      margin-left: 0 !important;
+  }
+
+  .h2, h2 {
+      font-size: 18px !important;
+  }
+
+  .row.cards-beneficios .card .card-text {
+      font-size: 12px;
+  }
+
+  .clients_logos img {
+      width: auto !important;
+      height: auto !important;
+  }
+
+  .row.cards-diferenciais .card {
+      height: 350px;
+  }
+
+  section#section05 img {
+      padding: 0;
+  }
+
+  .cards-planos>div>.card {
+      height: auto;
+      margin-bottom: 30px;
+  }
+
+  .depoiments_slide .carousel-inner .col-8 {
+      padding: 0;
+  }
+
+  .carousel-item .col-4>img {
+      width: 100%;
+  }
+
+  .depoiments_slide .carousel-inner {
+      margin: 0;
+      width: 100%;
+  }
+
+  .depoiments_slide .carousel-inner .col-8 {
+      font-size: 12px;
+      line-height: 1.5;
+  }
+
+  footer a.navbar-brand {
+      top: 0;
+      padding: 22px 12px;
+      float: left;
+  }
+
+  footer.footer>div>.container>.row>.col:nth-child(2) {
+      border: 0;
+      margin-left: 0;
+  }
+
+  ul.list-group.list-group-flush {
+      padding-left: 0;
+  }
+
+  ul.navbar-sociais>li {
+      margin-right: -2px;
+  }
+
+  ul.navbar-lojasapp>li img {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+  }
+
+  footer.footer h5 {
+      margin-left: -221px;
+      padding-top: 32px;
+      width: 200px;
+  }
+
+  footer {
+      padding-bottom: 70px !important;
+  }
+
+  .agendar_form {
+      padding-top: 16px !important;
+  }
+
+  section#section09 h4 {
+      font-size: 14px;
+      padding: 22px 2px;
+  }
+
+  section#section09 h4 {
+      font-size: 18px;
+      padding: 10px 2px;
+  }
+
+  section#section11>p {
+      width: 90%;
+      font-size: 17px;
+  }
+
+  section#section11 .row.cards-beneficios .card {
+      margin-bottom: 20px;
+  }
+
+  section#section14 {
+      margin-bottom: -90px;
+  }
+
+  section#section15 {
+      padding-top: 80px;
+  }
+
+  .planos_cards {
+      overflow: scroll;
+  }
+
+  .page-form>div {
+      max-width: 100%;
+      padding: 12px 32px;
+  }
+
 }
-
-.agendar_form input {
-    border-radius: 10px !important;
-    width: 98%;
-    margin: -2px;
-    margin-left: 0 !important;
-}
-
-.h2, h2 {
-    font-size: 18px !important;
-}
-
-.row.cards-beneficios .card .card-text {
-    font-size: 12px;
-}
-
-.clients_logos img {
-    width: auto !important;
-    height: auto !important;
-}
-
-.row.cards-diferenciais .card {
-    height: 350px;
-}
-
-section#section05 img {
-    padding: 0;
-}
-
-.cards-planos>div>.card {
-    height: auto;
-    margin-bottom: 30px;
-}
-
-.depoiments_slide .carousel-inner .col-8 {
-    padding: 0;
-}
-
-.carousel-item .col-4>img {width: 100%;}
-
-.depoiments_slide .carousel-inner {
-    margin: 0;
-    width: 100%;
-}
-
-.depoiments_slide .carousel-inner .col-8 {
-    font-size: 12px;
-    line-height: 1.5;
-}
-
-footer a.navbar-brand {
-    top: 0;
-    padding: 22px 12px;
-    float: left;
-}
-
-footer.footer>div>.container>.row>.col:nth-child(2) {
-    border: 0;
-    margin-left: 0;
-}
-
-ul.list-group.list-group-flush {
-    padding-left: 0;
-}
-
-ul.navbar-sociais>li {
-    margin-right: -2px;
-}
-
-ul.navbar-lojasapp>li img {
-    margin: 0;
-    padding: 0;
-    margin-top: 10px;
-}
-
-footer.footer h5 {
-    margin-left: -221px;
-    padding-top: 32px;
-    width: 200px;
-}
-
-footer {
-    padding-bottom: 70px !important;
-}
-
-.agendar_form {
-    padding-top: 16px !important;
-}
-
-section#section09 h4 {
-  font-size: 14px;
-  padding: 22px 2px;
-}
-
-section#section09 h4 {
-  font-size: 18px;
-  padding: 10px 2px;
-}
-
-section#section11>p {
-  width: 90%;
-  font-size: 17px;
-}
-
-section#section11 .row.cards-beneficios .card {
-  margin-bottom: 20px;
-}
-
-section#section14 {
-  margin-bottom: -90px;
-}
-
-section#section15 {
-  padding-top: 80px;
-}
-
-.planos_cards {
-  overflow: scroll;
-}
-
-.page-form>div {
-  max-width: 100%;
-  padding: 12px 32px;
-}
-
-}
-
-
