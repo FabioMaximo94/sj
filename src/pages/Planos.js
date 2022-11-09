@@ -1,6 +1,9 @@
 import Depoiments_slide from "../components/Depoiments_slide";
 import Planos_table from "../components/Planos_table";
 
+import Planos_cards from "../components/Planos_cards";
+import Agendar_form from "../components/Agendar_form";
+
 import planos_img from "../assets/images/planos.png";
 
 function Planos() {

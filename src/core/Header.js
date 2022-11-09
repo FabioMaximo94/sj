@@ -1,6 +1,11 @@
 import logo from "../assets/images/logo-dark.png";
 import '../App.css';
 
+import instagram_icon from "../assets/images/icons/instagram.png";
+import youtube_icon from "../assets/images/icons/youtube.png";
+import linkedin_icon from "../assets/images/icons/linkedin.png";
+import language_icon from "../assets/images/icons/language.png";
+
 function Header() {
   return (
     <div className="Header">
@@ -14,7 +19,7 @@ function Header() {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
 
-        <a class="navbar-brand" href="#"><img src={logo} className="logo" alt="Sales Journey" /></a>
+        <a class="navbar-brand" href="./"><img src={logo} className="logo" alt="Sales Journey" /></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,11 +30,11 @@ function Header() {
           <ul class="navbar-nav mr-auto">
 
             <li class="nav-item active">
-              <a class="nav-link" href="#">Produto</a>
+              <a class="nav-link" href="produto">Produto</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Planos</a>
+              <a class="nav-link" href="planos">Planos</a>
             </li>
 
             <li class="nav-item">
@@ -37,27 +42,27 @@ function Header() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="contato">Contato</a>
             </li>
 
 
             <div class="header--sociais__icons">
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                <a class="nav-link" href="#"><img src={instagram_icon} /></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+                <a class="nav-link" href="#"><img src={youtube_icon} /></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+                <a class="nav-link" href="#"><img src={linkedin_icon} /></a>
               </li>
             </div>
 
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-globe2"></i></a>
+              <a class="nav-link dropdown-toggle" href="#" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src={language_icon} /></a>
               <div class="dropdown-menu" aria-labelledby="language">
                 <a class="dropdown-item" href="#">Portugues</a>
                 <a class="dropdown-item" href="#">Ingles</a>
