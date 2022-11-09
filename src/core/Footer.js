@@ -9,17 +9,17 @@ import linkedin_icon from "../assets/images/icons/linkedin.png";
 function Footer() {
   return (
     <footer className="footer">
-    <div class="content">
+    <div className="content">
 
-      <div class="container text-center">
-        <div class="row">
+      <div className="container text-center">
+        <div className="row">
 
-          <div class="col">
-            <a class="navbar-brand" href="#"><img src={logoFooter} className="logo--footer" alt="Sales Journey" /></a>
+          <div className="col">
+            <a className="navbar-brand" href="#"><img src={logoFooter} className="logo--footer" alt="Sales Journey" /></a>
           </div>
 
-          <div class="col">
-            <ul class="list-group list-group-flush">
+          <div className="col">
+            <ul className="list-group list-group-flush">
               <li><a href="produto">Produto</a></li>
               <li><a href="planos">Planos</a></li>
               <li><a href="#">Blog</a></li>
@@ -33,19 +33,19 @@ function Footer() {
             </ul>
           </div>
 
-          <div class="col">
+          <div className="col">
 
             <h4>Visite nossas redes sociais:</h4>
-            <ul class="navbar-sociais">
+            <ul className="navbar-sociais">
               <li><a href="#"><img src={instagram_icon} /></a></li>
               <li><a href="#"><img src={youtube_icon} /></a></li>
               <li><a href="#"><img src={linkedin_icon} /></a></li>
             </ul>
 
             <h4>Faça o download na sua loja:</h4>
-            <ul class="navbar-lojasapp">
-              <li><a href="#" class="btn-app-aplle"><img src={btn_store} alt="Download App Aplle Store" /></a></li>
-              <li><a href="#" class="btn-app-google"><img src={btn_google} alt="Download App Google Play" /></a></li>
+            <ul className="navbar-lojasapp">
+              <li><a href="#" className="btn-app-aplle"><img src={btn_store} alt="Download App Aplle Store" /></a></li>
+              <li><a href="#" className="btn-app-google"><img src={btn_google} alt="Download App Google Play" /></a></li>
             </ul>
             
             <h5>@ 2021 Sales Journey - Todos os direitos reservados</h5>

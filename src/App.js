@@ -1,10 +1,11 @@
 //import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 //import style
-//import "~bootstrap/scss/bootstrap";
+import "./assets/css/bootstrap.min.css";
 import "./App.css";
-import "./assets/css/pe-icon-7.css";
-//import "./assets/scss/themes.scss";
+//import "./assets/css/pe-icon-7.css";
+import "./assets/js/bootstrap.min.js";
+//import "./assets/js/bootstrap.bundle.min.js";
 
 import {
   Routes,

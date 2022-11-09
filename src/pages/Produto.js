@@ -9,7 +9,7 @@ import clevels3 from "../assets/images/clevels/03.png";
 function Produto() {
   return (
     <main className="main--produto">
-    <div class="content">
+    <div className="content">
 
 
       <section className="justify-content-center" id="section08">
@@ -45,31 +45,31 @@ function Produto() {
         <p className="fontcolor-white">Não somos apenas mais uma plataforma, mas um time que acredita que ao fazer diferente se chega mais longe. Não fazemos diferente apenas pela novidade, e sim pela mudança positiva que geramos para nossos clientes. <span className="fontcolor-secundary">E o que nos motíva é a crença de que podemos chegar mais longe juntos.</span></p>
 
 
-        <div class="row cards-beneficios">
+        <div className="row cards-beneficios">
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Comunicação ativa</h5>
-                <p class="card-text">A comunicação é o que mantém uma empresa alinhada e produtiva. Agilidade no entendimento e produção são fatores cruciais para nossos clientes.</p>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Comunicação ativa</h5>
+                <p className="card-text">A comunicação é o que mantém uma empresa alinhada e produtiva. Agilidade no entendimento e produção são fatores cruciais para nossos clientes.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Transparência</h5>
-                <p class="card-text">Saber trabalhar com feedbacks, ser abertos a discusões e novas ideias é uma parte importe do nosso processo.</p>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Transparência</h5>
+                <p className="card-text">Saber trabalhar com feedbacks, ser abertos a discusões e novas ideias é uma parte importe do nosso processo.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Cultura ágil</h5>
-                <p class="card-text">Agilidade é mossa principal ferramenta para agregar valor ao dia-a-dia dos nossos clientes.</p>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Cultura ágil</h5>
+                <p className="card-text">Agilidade é mossa principal ferramenta para agregar valor ao dia-a-dia dos nossos clientes.</p>
               </div>
             </div>
           </div>
@@ -93,34 +93,34 @@ function Produto() {
       <section className="justify-content-center bg-secundary" id="section13">
         <h2 className="h2 fontcolor-white">C-Levels Sales Journey - mudar este texto</h2>
 
-        <div class="row cards-clevels">
+        <div className="row cards-clevels">
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
                 <img src={clevels1} />
-                <h5 class="card-title">Tobias Junior</h5>
-                <p class="card-text">(CPTO) - Chief Product and Technology Officer</p>
+                <h5 className="card-title">Tobias Junior</h5>
+                <p className="card-text">(CPTO) - Chief Product and Technology Officer</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
                 <img src={clevels2} />
-                <h5 class="card-title">Ana Senko</h5>
-                <p class="card-text">(COO) - Chief Operating Officer</p>
+                <h5 className="card-title">Ana Senko</h5>
+                <p className="card-text">(COO) - Chief Operating Officer</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
                 <img src={clevels3} />
-                <h5 class="card-title">Carlos Tofanello</h5>
-                <p class="card-text">(CFO) - Chief Financial Officer</p>
+                <h5 className="card-title">Carlos Tofanello</h5>
+                <p className="card-text">(CFO) - Chief Financial Officer</p>
               </div>
             </div>
           </div>

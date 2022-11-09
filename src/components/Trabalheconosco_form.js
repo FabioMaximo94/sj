@@ -18,7 +18,7 @@ function Trabalheconosco_form() {
         </label>
 
         <label> Cargo de interesse*
-          <select class="form-select" aria-label="Selecione sua área" name="cargo">
+          <select className="form-select" aria-label="Selecione sua área" name="cargo">
             <option selected>Selecione sua área</option>
             <option value="Dev Backend">Dev Backend</option>
             <option value="Dev Frontend">Dev Frontend</option>
@@ -42,9 +42,9 @@ function Trabalheconosco_form() {
         </label>
 
 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
+          <label className="form-check-label" for="flexCheckDefault">
             Gostaria de receber conteúdos sobre nossa plataforma.
           </label>
         </div>
@@ -55,7 +55,7 @@ function Trabalheconosco_form() {
 
       </form>
 
-      <p class="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
+      <p className="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
 
     </div>
   );

@@ -4,7 +4,7 @@ import Clients_logos from "../components/Clients_logos";
 function Gratis() {
   return (
     <main className="main--Gratis">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center page-form" id="section20">

@@ -1,7 +1,7 @@
 function Termos() {
   return (
     <main className="main--termos">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center page-text" id="section24">

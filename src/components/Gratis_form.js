@@ -18,7 +18,7 @@ function Gratis_form() {
         </label>
 
         <label> Cargo*
-          <select class="form-select" aria-label="Selecione o cargo" name="cargo">
+          <select className="form-select" aria-label="Selecione o cargo" name="cargo">
             <option selected>Selecione o cargo</option>
             <option value="Administrador">Administrador</option>
             <option value="Financeiro">Financeiro</option>
@@ -35,7 +35,7 @@ function Gratis_form() {
         </label>
 
         <label> Segmento*
-          <select class="form-select" aria-label="Selecione o segmento" name="segmento">
+          <select className="form-select" aria-label="Selecione o segmento" name="segmento">
             <option selected>Selecione o segmento</option>
             <option value="Automotivo">Automotivo</option>
             <option value="Educação">Educação</option>
@@ -54,7 +54,7 @@ function Gratis_form() {
         </label>
 
         <label> Tamanho da empresa*
-          <select class="form-select" aria-label="Número de funcionários" name="tamanho_empresa">
+          <select className="form-select" aria-label="Número de funcionários" name="tamanho_empresa">
             <option selected>Número de funcionários</option>
             <option value="1 - 50 funcionários">1 - 50 funcionários</option>
             <option value="50 - 300 funcionários">50 - 300 funcionários</option>
@@ -65,7 +65,7 @@ function Gratis_form() {
         </label>
 
         <label> Plano*
-          <select class="form-select" aria-label="Selecione o plano" name="plano">
+          <select className="form-select" aria-label="Selecione o plano" name="plano">
             <option selected>Selecione o plano</option>
             <option value="Personal">Personal</option>
             <option value="Startup">Startup</option>
@@ -73,9 +73,9 @@ function Gratis_form() {
           </select>
         </label>
 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
+          <label className="form-check-label" for="flexCheckDefault">
             Gostaria de receber conteúdos sobre nossa plataforma.
           </label>
         </div>
@@ -86,7 +86,7 @@ function Gratis_form() {
 
       </form>
 
-      <p class="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
+      <p className="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
 
     </div>
   );

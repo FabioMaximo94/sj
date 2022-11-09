@@ -8,38 +8,38 @@ function Planos_cards() {
 
       <h2 className="h2 fontcolor-white">Conheça nossos planos</h2>
 
-      <div class="planos-btns justify-content-center">
-        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" />
-        <label class="btn btn-secondary" for="option1">Plano mensal</label>
+      <div className="planos-btns justify-content-center">
+        <input type="radio" className="btn-check" name="options" id="option1" autocomplete="off" />
+        <label className="btn btn-secondary" for="option1">Plano mensal</label>
 
-        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" checked />
-        <label class="btn btn-secondary" for="option2">Plano anual</label>
+        <input type="radio" className="btn-check" name="options" id="option2" autocomplete="off" checked />
+        <label className="btn btn-secondary" for="option2">Plano anual</label>
       </div>
 
       <p>Economize 13% no plano anual</p>
 
 
-      <div class="row cards-planos">
+      <div className="row cards-planos">
 
 
-        <div class="col-sm-4">
-          <div class="card">
+        <div className="col-sm-4">
+          <div className="card">
 
-            <div class="card-header">
-              <img class="card-icon" src={icon01} />
+            <div className="card-header">
+              <img className="card-icon" src={icon01} />
               <h4>Personal</h4>
             </div>
 
-            <div class="card-body">
+            <div className="card-body">
 
-              <h5 class="card-title">Para organizar seu clientes e gerenciar o seu funil de vendas.</h5>
-              <span class="line-primary"></span>
-              <h1 class="card-price">Free</h1>
-              <p class="card-text-inline-primary">Individual</p>
+              <h5 className="card-title">Para organizar seu clientes e gerenciar o seu funil de vendas.</h5>
+              <span className="line-primary"></span>
+              <h1 className="card-price">Free</h1>
+              <p className="card-text-inline-primary">Individual</p>
 
-              <a class="btn btn-lg btn-primary" href="#" role="button">Comece agora é grátis</a>
-              <p class="card-text-afterbtn">Não é necessário cartão de crédito</p>
-              <span class="line-primary"></span>
+              <a className="btn btn-lg btn-primary" href="#" role="button">Comece agora é grátis</a>
+              <p className="card-text-afterbtn">Não é necessário cartão de crédito</p>
+              <span className="line-primary"></span>
 
               <ul>
 
@@ -55,7 +55,7 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
@@ -63,24 +63,24 @@ function Planos_cards() {
 
 
 
-        <div class="col-sm-4">
-          <div class="card">
+        <div className="col-sm-4">
+          <div className="card">
 
-            <div class="card-header">
-              <img class="card-icon" src={icon02} />
+            <div className="card-header">
+              <img className="card-icon" src={icon02} />
               <h4>Startup</h4>
             </div>
 
-            <div class="card-body">
+            <div className="card-body">
 
-              <h5 class="card-title">Para usuários que querem fazer um pouco mais e escalar suas vendas.</h5>
-              <span class="line-primary"></span>
-              <h1 class="card-price">R$ 89,00</h1>
-              <p class="card-text-inline-secundary">por usuário por mês, faturado mensalmente</p>
+              <h5 className="card-title">Para usuários que querem fazer um pouco mais e escalar suas vendas.</h5>
+              <span className="line-primary"></span>
+              <h1 className="card-price">R$ 89,00</h1>
+              <p className="card-text-inline-secundary">por usuário por mês, faturado mensalmente</p>
 
-              <a class="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
-              <p class="card-text-afterbtn">Teste gratuito de 14 dias. Não é necessário cartão de crédito</p>
-              <span class="line-primary"></span>
+              <a className="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
+              <p className="card-text-afterbtn">Teste gratuito de 14 dias. Não é necessário cartão de crédito</p>
+              <span className="line-primary"></span>
 
               <ul>
 
@@ -103,30 +103,30 @@ function Planos_cards() {
 
               </ul>
 
-              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>
         </div>
 
-        <div class="col-sm-4">
-          <div class="card">
+        <div className="col-sm-4">
+          <div className="card">
 
-            <div class="card-header">
-              <img class="card-icon" src={icon03} />
+            <div className="card-header">
+              <img className="card-icon" src={icon03} />
               <h4>Sales Ops</h4>
             </div>
 
-            <div class="card-body">
+            <div className="card-body">
 
-              <h5 class="card-title">Gerencie toda jornada de vendas da sua empresa em um único lugar.</h5>
-              <span class="line-primary"></span>
-              <h1 class="card-price">R$ 180,00</h1>
-              <p class="card-text-inline-primary">por usuário por mês, faturado mensalmente</p>
+              <h5 className="card-title">Gerencie toda jornada de vendas da sua empresa em um único lugar.</h5>
+              <span className="line-primary"></span>
+              <h1 className="card-price">R$ 180,00</h1>
+              <p className="card-text-inline-primary">por usuário por mês, faturado mensalmente</p>
 
-              <a class="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
-              <p class="card-text-afterbtn">Teste gratuito de 30 dias. Não é necessário cartão de crédito</p>
-              <span class="line-primary"></span>
+              <a className="btn btn-lg btn-primary" href="#" role="button">Teste grátis</a>
+              <p className="card-text-afterbtn">Teste gratuito de 30 dias. Não é necessário cartão de crédito</p>
+              <span className="line-primary"></span>
 
               <ul>
                 <li>• Para organizar seu Crie carrinho de vendas desde a oportunidade</li>
@@ -148,7 +148,7 @@ function Planos_cards() {
                 <li>• Utilize nossas APIs e Webhooks (callbacks) para integrar com os mais diversos produtos de automação de marketing, produtividade e ERPs.clientes e gerenciar o seu funil de vendas.</li>
               </ul>
 
-              <a href="#" class="btn btn-primary-white">Ver todos os recursos</a>
+              <a href="#" className="btn btn-primary-white">Ver todos os recursos</a>
 
             </div>
           </div>

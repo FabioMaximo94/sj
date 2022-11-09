@@ -22,7 +22,7 @@ function Contato_form() {
         </label>
 
         <label> Assunto*
-          <select class="form-select" aria-label="Selecione o assunto" name="assunto">
+          <select className="form-select" aria-label="Selecione o assunto" name="assunto">
             <option selected>Selecione o assunto</option>
             <option value="Agendar uma apresentação">Agendar uma apresentação</option>
             <option value="Lincenças e Planos">Lincenças e Planos</option>
@@ -36,9 +36,9 @@ function Contato_form() {
           <textarea type="text" name="mensagem" />
         </label>
 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="receber-conteudo" id="flexCheckDefault" />
+          <label className="form-check-label" for="flexCheckDefault">
             Gostaria de receber conteúdos sobre nossa plataforma.
           </label>
         </div>
@@ -49,7 +49,7 @@ function Contato_form() {
 
       </form>
 
-      <p class="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
+      <p className="inline-form">Ao enviar os dados, eu concordo com a Política de Privacidade.<br />Não utilizaremos suas informações de contato para enviar qualquer tipo de SPAM.</p>
 
     </div>
   );

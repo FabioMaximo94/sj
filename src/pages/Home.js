@@ -11,7 +11,7 @@ import arquitetura_img from "../assets/images/arquitetura_img.png";
 function Home() {
   return (
     <main className="main--home">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center" id="section01">

@@ -3,7 +3,7 @@ import Trabalheconosco_form from "../components/Trabalheconosco_form";
 function Trabalheconosco() {
   return (
     <main className="main--Trabalheconosco">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center page-form" id="section22">

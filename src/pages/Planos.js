@@ -9,7 +9,7 @@ import planos_img from "../assets/images/planos.png";
 function Planos() {
   return (
     <main className="main--Planos">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center" id="section14">

@@ -1,7 +1,7 @@
 function Politica() {
   return (
     <main className="main--politica">
-      <div class="content">
+      <div className="content">
 
 
       <section className="justify-content-center page-text" id="section25">
